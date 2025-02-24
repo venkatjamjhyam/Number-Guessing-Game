@@ -25,7 +25,7 @@ function validateGuess(guess){
     } else if (guess < 1) {
         alert('Please enter a number greater than 1!');
     } else if (guess > 1000){
-        alert('Please enter a number less than 1100!')
+        alert('Please enter a number less than 1001!')
     } else {
         //Keep record of number of attempted guesses
         previousGuesses.push(guess);
